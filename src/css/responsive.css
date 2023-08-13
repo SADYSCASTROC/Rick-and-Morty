@@ -260,6 +260,7 @@
 @media (max-width: 575px) {
     .header {
         height: 122px;
+        display: none;
     }
     .logo {
         padding-top: 5px;

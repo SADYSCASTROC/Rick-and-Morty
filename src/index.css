@@ -1,5 +1,3 @@
-
-
 /*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
 
 /* @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
@@ -412,6 +410,7 @@ button {
 .titlepage {
     text-align: center;
     padding-bottom: 40px;
+
 }
 
 .titlepage h2 {
@@ -424,6 +423,36 @@ button {
 
 .green {
     color: #16e816 !important;
+}
+
+.link-episodio :hover{
+    color: #16e816 !important;
+
+}
+
+.container-descrip{
+    max-height: 500px; /* Altura máxima del contenedor */
+    overflow-y: auto;
+}
+
+.d{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.position {
+    opacity: 1;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px;
+    z-index: 1000;
+    /* Asegura que el encabezado se muestre encima de otros elementos */
 }
 
 .d_flex {
@@ -776,6 +805,10 @@ button {
     cursor: pointer;
 }
 
+#new:hover .name-person {
+    color: #16d316;
+}
+
 #new:hover.news_box .news_room span,
 #new:hover.news_box .news_room h3,
 #new:hover.news_box .news_room p,
@@ -1099,11 +1132,17 @@ ul.link_menu li a:hover {
     opacity: 1;
 }
 
+.name-person :hover {
+    color: #16d316;
+}
+
 .copyright {
     margin-top: 60px;
     padding-bottom: 20px;
     background-color: #fff;
 }
+
+.person-containe {}
 
 .copyright p {
     color: #000;
